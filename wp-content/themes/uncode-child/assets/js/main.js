@@ -12,4 +12,5 @@ jQuery(document).ready(function($) {
 	    }
 	}
 	isTouchSupported();
+	$('.new-badge img').before('<img class="new-icon"/>');
 });

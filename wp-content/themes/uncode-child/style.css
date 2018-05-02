@@ -184,6 +184,19 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 .submenu-slider .slick-initialized .slick-slide {
 	min-width: 110px;
 }
+.submenu-slider .slick-slide .new-badge .uncode-single-media-wrapper {
+	position: relative;
+}
+.submenu-slider .new-badge .new-icon {
+    content: url(assets/img/new-pill.svg);
+    position: absolute;
+    width: 36px;
+    height: auto;
+    top: 1px;
+    right: 0px;
+    z-index: 100;
+    cursor: pointer;
+}
 @media (min-width: 960px) {
 	body[class*=hmenu-]:not(.hmenu-center-split) .logo-container {
 	    padding-right: 0px !important;
@@ -218,7 +231,13 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	    padding-left: 0px;
 	}
 }
-@media (max-width: 750px) {
+@media (max-width: 959px) {
+	.main-container .submenu-slider .row .column_parent {
+		padding-left: 0px;
+	}
+	.main-container .submenu-slider.row-container .row-parent {
+		padding: 7px 20px 10px 20px
+	}
 	.menu-container .logo-container {
 	    padding-bottom: 24px !important;
 	}	
@@ -246,6 +265,7 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	}
 	.post-content .submenu-slider {
 		margin-top: -3px;
+		padding: 0px 12px 15px 12px;
 	}
 	.submenu-light .main-menu-container {
 		margin-bottom: 3px;
