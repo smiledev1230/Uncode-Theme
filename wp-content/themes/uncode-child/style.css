@@ -1,0 +1,256 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+.menu-wrapper .menu-container {
+	height: 76px;
+}
+.limit-width {
+	height: 51px;
+}
+.top-header {
+    background-color: #cccccc;
+    text-align: center;
+    border-bottom: 1px solid #0d7de5;
+}
+.top-header p {
+	font-size: 12px;
+	margin-top: 0px;
+	font-weight: bold;
+    color: #216fbf;
+    line-height: 24px;
+}
+.top-menu {
+	display: none;
+	/*background-color: #f1f1f1;*/
+}
+.menu-wrapper #masthead {
+	z-index: 9999;
+}
+.logo-container #main-logo a .logo-image {
+	position: absolute;
+	margin-top: -38px;
+}
+#logo-container-mobile #main-logo {
+	/*width: 116px;*/
+}
+.row-breadcrumb.row-breadcrumb-light {
+	display: none;
+}
+.post-content .submenu-slider {
+    padding: 0px 36px 15px 36px;
+    height: 90px;
+    background-color: #e7e7e7;
+}
+.post-content .submenu-slider .slick-track {
+	margin: 0px auto;
+}
+.main-container .submenu-slider.row-container .row-parent {
+	padding: 7px 36px 10px 36px;
+}
+.submenu-slider .slick-prev, .submenu-slider .slick-prev:hover, .submenu-slider .slick-prev:focus, .submenu-slider .slick-next, .submenu-slider .slick-next:hover, .submenu-slider .slick-next:focus {
+    border-radius: 0px !important;
+    border: 0px !important;
+    box-shadow: none !important;
+}
+.submenu-slider .bb-ultimate-carousel .slick-prev:before, .submenu-slider .bb-ultimate-carousel .slick-next:before {
+	transform: rotate(0deg);
+    border: none;
+    height: 72px;
+    width: auto;
+    margin-top: -12px;
+    opacity: 0.8;
+}
+.submenu-slider .bb-ultimate-carousel .slick-next:before {
+	background: url('assets/img/arrow-right-icon.png') no-repeat;
+}
+.submenu-slider .bb-ultimate-carousel .slick-prev:before {
+	background: url('assets/img/arrow-left-icon.png') no-repeat;
+}
+.menu-accordion ul.menu-smart li.menu-item a {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px !important;
+}
+.submenu-slider .slick-disabled {
+	display: none !important;
+}
+.submenu-slider .slick-slide {
+	text-align: center;
+}
+.submenu-slider .slick-slide p {
+	font-size: 12px;
+	line-height: 13px;
+	font-family: 'Raleway', sans-serif;
+}
+.submenu-slider .slick-slide img {
+    height: 50px;
+    width: auto;
+    margin: 0px auto;
+    cursor: pointer;
+}
+.main-container .mid-menu.row-container {
+	background-color: #f1f1f1;
+	padding-top: 10px;
+}
+.main-container .mid-menu.row-container .row-parent {
+	padding: 0px 36px;
+	max-width: 1400px;
+	margin: 0px auto;
+}
+.mid-menu .vc_wp_custommenu.wpb_content_element {
+	float: right;
+	margin-top: 20px !important;
+	margin-bottom: 10px;
+}
+.mid-menu .heading-text.el-text h4 {
+	position: absolute;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.mid-menu .menu-smart > li > a {
+	color: #4f7bd2;
+}
+.mid-menu .menu-smart > li > a:hover {
+	color: #ea9107;
+}
+.hmenu .menu-primary .menu-smart > li > a:before, .hmenu .menu-primary .menu-smart > li > a:after {
+	height: 17px;
+}
+body.hmenu .menu-primary .menu-horizontal .navbar-nav-first .menu-smart > li > a {
+	font-size: 16px;
+	color: #fff;
+    margin: 0px 16px;
+    font-family: 'Raleway', sans-serif;
+}
+body.hmenu .menu-primary .menu-horizontal .navbar-nav-first .menu-smart > li > a:hover {
+	color: #54ADFF;
+}
+.menu-horizontal .menu-smart .search-icon {
+	display: none;
+}
+body[class*=hmenu-] .menu-borders .navbar-nav + .navbar-nav-last > *:first-child {
+	border-left-width: 0px;
+	padding-left: 0px;
+    margin-left: 0px;
+}
+body[class*=hmenu] .uncode-cart a .cart-icon-container>i.fa:not(.fa-dropdown) {
+	top: -6px;
+	color: #fff;
+}
+.cart-icon-container .fa-bag:before {
+	content: url('/wp-content/uploads/2018/04/shop-icon.png');
+}
+.cart-icon-container .fa-bag:after {
+    content: "SHOP";
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+body[class*=hmenu] ul.menu-smart > li.active a::after {
+	border-radius: 4px;
+    width: 0px;
+    height: 0px;
+    margin-left: 36px;
+    margin-top: 13px
+}
+.hmenu .navbar-nav.navbar-nav-last {
+	display: none;
+}
+.hmenu .navbar-nav.navbar-nav-first {
+	display: none;
+}
+.menu-horizontal-inner > div:last-child .menu-smart {
+	background-color: #6ab5ec;
+}
+#menu-dynamic-menu-1 {
+	text-align: center;
+	margin-left: 68px;
+}
+.main-container .submenu-slider .row .column_parent {
+	padding-left: 60px;
+}
+.post-content .submenu-slider .slick-track {
+	min-width: 850px;
+}
+.submenu-slider .slick-initialized .slick-slide {
+	min-width: 110px;
+}
+@media (min-width: 960px) {
+	body[class*=hmenu-]:not(.hmenu-center-split) .logo-container {
+	    padding-right: 0px !important;
+	}
+	.menu-wrapper .row-menu .row-menu-inner {
+	    padding: 0px 56px 0px 0px;
+	}
+}
+@media (max-width: 1300px) {
+	body[class*=hmenu-] .menu-borders .navbar-nav + .navbar-nav-last > *:first-child {
+	    margin-left: 0px;
+	    margin-right: 36px;
+	}
+	#logo-container-mobile #main-logo {
+		width: 88px;
+	}
+	.menu-wrapper .row-menu .row-menu-inner {
+	    padding-right: 20px;
+	}
+	.limit-width {
+		padding: 0px 24px;
+	}
+	#menu-dynamic-menu-1 {
+		margin-left: -24px;
+	}
+	body.hmenu .menu-primary .menu-horizontal .navbar-nav-first .menu-smart > li > a {
+		margin: 0px 6px;
+	}
+}
+@media (max-width: 1000px) {
+	body[class*=hmenu-] .menu-borders .navbar-nav + .navbar-nav-last > *:first-child {
+	    padding-left: 0px;
+	}
+}
+@media (max-width: 750px) {
+	.menu-container .logo-container {
+	    padding-bottom: 24px !important;
+	}	
+	.menu-wrapper, .menu-wrapper .menu-container {
+		background-color: #6ab5ec;
+	}
+	.menu-horizontal-inner > div:last-child .menu-smart {
+	    /*padding: 27px 0px 27px 0px !important;*/
+	}
+	.submenu-light .menu-smart a, .submenu-light .menu-smart a {
+		color: #303133;
+	}
+	#main-logo .navbar-brand img {
+		content: url("assets/img/thenos-white-logo.png");
+	    height: 42px;
+	    margin-top: 16px;
+	}
+	#logo-container-mobile #main-logo, #logo-container-mobile #main-logo>a {
+	    position: absolute;
+	    width: 100%;
+	}
+	.logo-container #main-logo a .logo-image {
+		width: 80px;
+		margin-left: -80px;
+	}
+	.post-content .submenu-slider {
+		margin-top: -3px;
+	}
+	.submenu-light .main-menu-container {
+		margin-bottom: 3px;
+	}
+	.menu-light .row-menu .row-menu-inner {
+		border-bottom: none;
+	}
+}

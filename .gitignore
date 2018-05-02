@@ -16,11 +16,13 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
-/wp-admin/
-wp-content/
+wp-admin/
+wp-content/plugins/
+wp-content/ai1wm-backups/
+wp-content/themes/*
 wp-includes/
-!wp-content/uncode/
-!wp-content/uncode-child/
+!wp-content/themes/uncode/
+!wp-content/themes/uncode-child/
 .gitignore
 index.php
 wp-activate.php

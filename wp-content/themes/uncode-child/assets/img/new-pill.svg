@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 25 10" style="enable-background:new 0 0 25 10;" xml:space="preserve">
+<g id="new-pill">
+	<g>
+		<path style="fill:#EA9107;" d="M20,10H5c-2.761,0-5-2.239-5-5l0,0c0-2.761,2.239-5,5-5h15c2.761,0,5,2.239,5,5l0,0
+			C25,7.761,22.761,10,20,10z"/>
+	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M2,1.751h1.802l2.352,3.595V1.751h1.819v6.498H6.154L3.815,4.681v3.567H2V1.751z"/>
+		<path style="fill:#FFFFFF;" d="M8.598,1.751h5.173v1.387h-3.238v1.033h3.004v1.325h-3.004v1.281h3.332v1.471H8.598V1.751z"/>
+		<path style="fill:#FFFFFF;" d="M14.261,1.751h1.834l0.66,3.637l0.966-3.637h1.827l0.968,3.633l0.661-3.633H23l-1.377,6.498H19.73
+			l-1.096-4.091l-1.092,4.091H15.65L14.261,1.751z"/>
+	</g>
+</g>
+</svg>
