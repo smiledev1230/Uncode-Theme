@@ -7,8 +7,8 @@ Template: uncode
 Version: 1.0.0
 Text Domain: uncode
 */
-.menu-wrapper .menu-container {
-	height: 76px;
+.menu-wrapper.menu-sticky.no-header {
+	height: 76px !important;
 }
 .limit-width {
 	height: 51px;
@@ -98,7 +98,7 @@ Text Domain: uncode
 	.submenu-slider .slick-slide p>strong:hover,
 	.submenu-slider .slick-slide p>a:hover,
 	.submenu-slider .slick-slide p>a>strong:hover {
-	color: #44a0d7;
+	color: #54A6F4;
 }
 .submenu-slider .slick-slide img {
     height: 50px;
@@ -119,7 +119,7 @@ Text Domain: uncode
 	border-bottom: 1px solid #4091cd;
 	padding-bottom: 2px;
 }
-.mid-menu .vc_wp_custommenu.wpb_content_element {
+.mid-menu .mid-menu-content {
 	float: right;
 	margin-top: 20px !important;
 	margin-bottom: 10px;
@@ -129,17 +129,30 @@ Text Domain: uncode
 	padding-top: 10px;
 	cursor: pointer;
 }
+.mid-menu .mid-menu-logo {
+	max-height: 50px;
+    max-width: 300px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 5px;
+}
+.mid-menu .mid-menu-logo img {
+    max-height: 50px;
+    width: auto;
+	cursor: pointer;
+}
 .mid-menu .menu-smart > li > a {
 	color: #4f7bd2;
 	font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    padding: 0px 36px;
+    padding: 0px 16px;
 }
 .mid-menu .menu-smart li:last-child>a {
 	padding-right: 0px;
 }
 .mid-menu .menu-smart > li > a:hover {
-	color: #ea9107;
+	color: #54A6F4;
 }
 .hmenu .menu-primary .menu-smart > li > a:before, .hmenu .menu-primary .menu-smart > li > a:after {
 	height: 17px;
@@ -151,7 +164,7 @@ body.hmenu .menu-primary .menu-horizontal .navbar-nav-first .menu-smart > li > a
     font-family: 'Raleway', sans-serif;
 }
 body.hmenu .menu-primary .menu-horizontal .navbar-nav-first .menu-smart > li > a:hover {
-	color: #54ADFF;
+	color: #54A6F4;
 }
 .menu-horizontal .menu-smart .search-icon {
 	display: none;
@@ -212,8 +225,8 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 .submenu-slider .new-badge .new-icon {
     content: url(assets/img/new-pill.svg);
     position: absolute;
-    width: 36px;
-    height: auto;
+    width: 35px;
+    height: 10px;
     top: 1px;
     right: 0px;
     z-index: 100;
@@ -223,12 +236,32 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	color: #ea9107;
 	text-decoration: underline;
 }
+.mid-menu .mid-menu-drop {
+	position: absolute;
+    top: 0px;
+    margin-top: 12px !important;
+    width: 100%;
+}
+.mid-menu .mid-menu-drop p {
+	text-align: center;
+}
+.mid-menu .mid-menu-drop p .fa {
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
 @media (min-width: 960px) {
 	body[class*=hmenu-]:not(.hmenu-center-split) .logo-container {
 	    padding-right: 0px !important;
 	}
 	.menu-wrapper .row-menu .row-menu-inner {
 	    padding: 0px 56px 0px 0px;
+	}
+	.mid-menu .mid-menu-content .menu-smart{
+		display: block !important;
+	}
+	.mid-menu .mid-menu-drop p .fa {
+		display: none !important;
 	}
 }
 @media (max-width: 1300px) {
@@ -290,7 +323,6 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 		margin-left: -80px;
 	}
 	.post-content .submenu-slider {
-		margin-top: -3px;
 		padding: 0px 12px 15px 12px;
 	}
 	.submenu-light .main-menu-container {
@@ -299,7 +331,19 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	.menu-light .row-menu .row-menu-inner {
 		border-bottom: none;
 	}
-	.mid-menu {
+	.mid-menu .mid-menu-content {
+		text-align: center;
+		float: none;
+		margin-top: 50px !important;
+	}
+	.mid-menu-content .menu-smart > li > a {
+	    padding: 10px 16px;
+	    display: block;
+	}
+	.mid-menu .mid-menu-drop p .fa.fa-angle-down {
+		display: block;
+	}
+	.mid-menu-content .menu-smart {
 		display: none;
 	}
 }
