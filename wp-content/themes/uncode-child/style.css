@@ -84,24 +84,40 @@ Text Domain: uncode
 	text-align: center;
 }
 .submenu-slider .slick-slide p {
-	font-size: 12px;
-	line-height: 13px;
-	font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-top: 0px;
+    color: #303133;
+}
+.submenu-slider .slick-slide .uncode_text_column>p:first-child {
+	font-weight: bold;
+}
+.submenu-slider .slick-slide p:hover,
+	.submenu-slider .slick-slide p>strong:hover,
+	.submenu-slider .slick-slide p>a:hover,
+	.submenu-slider .slick-slide p>a>strong:hover {
+	color: #44a0d7;
 }
 .submenu-slider .slick-slide img {
     height: 50px;
     width: auto;
+    max-width: 100px;
     margin: 0px auto;
     cursor: pointer;
 }
 .main-container .mid-menu.row-container {
-	background-color: #f1f1f1;
-	padding-top: 10px;
+	background-color: #f2f2f2;
 }
 .main-container .mid-menu.row-container .row-parent {
 	padding: 0px 36px;
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: 0px auto;
+}
+.main-container .mid-menu.row-container .row-parent .uncol {
+	border-bottom: 1px solid #4091cd;
+	padding-bottom: 2px;
 }
 .mid-menu .vc_wp_custommenu.wpb_content_element {
 	float: right;
@@ -115,6 +131,12 @@ Text Domain: uncode
 }
 .mid-menu .menu-smart > li > a {
 	color: #4f7bd2;
+	font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 36px;
+}
+.mid-menu .menu-smart li:last-child>a {
+	padding-right: 0px;
 }
 .mid-menu .menu-smart > li > a:hover {
 	color: #ea9107;
@@ -197,6 +219,10 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
     z-index: 100;
     cursor: pointer;
 }
+.mid-menu .menu-smart li.current-menu-item>a {
+	color: #ea9107;
+	text-decoration: underline;
+}
 @media (min-width: 960px) {
 	body[class*=hmenu-]:not(.hmenu-center-split) .logo-container {
 	    padding-right: 0px !important;
@@ -251,7 +277,7 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 		color: #303133;
 	}
 	#main-logo .navbar-brand img {
-		content: url("assets/img/thenos-white-logo.png");
+		content: url("assets/img/thenos-white-logo.svg");
 	    height: 42px;
 	    margin-top: 16px;
 	}
@@ -272,5 +298,8 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	}
 	.menu-light .row-menu .row-menu-inner {
 		border-bottom: none;
+	}
+	.mid-menu {
+		display: none;
 	}
 }
