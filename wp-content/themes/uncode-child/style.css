@@ -77,6 +77,12 @@ Text Domain: uncode
 	text-transform: uppercase;
 	font-size: 24px !important;
 }
+.menu-accordion ul.menu-smart li.menu-item a:hover {
+	color: #54A6F4;
+}
+.menu-accordion .menu-smart > li.current-menu-item:not(.menu-item-type-custom) > a {
+	color: #54A6F4;
+}
 .submenu-slider .slick-disabled {
 	display: none !important;
 }
@@ -204,7 +210,7 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	display: none;
 }
 .menu-horizontal-inner > div:last-child .menu-smart {
-	background-color: #6ab5ec;
+	background-color: #4d5766;
 }
 #menu-dynamic-menu-1 {
 	text-align: center;
@@ -301,16 +307,19 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	    padding-bottom: 24px !important;
 	}	
 	.menu-wrapper, .menu-wrapper .menu-container {
-		background-color: #6ab5ec;
+		/*background-color: #6ab5ec;*/
 	}
 	.menu-horizontal-inner > div:last-child .menu-smart {
 	    /*padding: 27px 0px 27px 0px !important;*/
 	}
+	.mobile-menu-button-light .lines, .mobile-menu-button-light .lines:before, .mobile-menu-button-light .lines:after {
+		background: #fff;
+	}
 	.submenu-light .menu-smart a, .submenu-light .menu-smart a {
-		color: #303133;
+		color: #fff;
 	}
 	#main-logo .navbar-brand img {
-		content: url("assets/img/thenos-white-logo.svg");
+		content: url("assets/img/thenos-white-logo.png");
 	    height: 42px;
 	    margin-top: 16px;
 	}
@@ -337,7 +346,7 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 		margin-top: 50px !important;
 	}
 	.mid-menu-content .menu-smart > li > a {
-	    padding: 10px 16px;
+	    padding: 10px 0px;
 	    display: block;
 	}
 	.mid-menu .mid-menu-drop p .fa.fa-angle-down {
