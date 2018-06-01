@@ -107,7 +107,7 @@ Text Domain: uncode
 	color: #54A6F4;
 }
 .submenu-slider .slick-slide img {
-    height: 50px;
+    max-height: 50px;
     width: auto;
     max-width: 100px;
     margin: 0px auto;
@@ -255,6 +255,52 @@ body[class*=hmenu] ul.menu-smart > li.active a::after {
 	font-size: 24px;
 	cursor: pointer;
 	display: none;
+}
+.fluid-svg .icon-media {
+    width: auto !important;
+    margin-bottom: 3px !important;
+}
+.ceiling-icon img:last-child {
+	height: 45px;
+}
+.ceiling-icon .fluid-svg .icon-media {
+	margin-top: 3px !important;
+}
+.wall-icon img:last-child {
+	height: 37px;
+}
+.wall-icon .fluid-svg .icon-media {
+	margin-top: 11px !important;
+}
+.business-icon img:last-child {
+	height: 42px;
+}
+.business-icon .fluid-svg .icon-media {
+	margin-top: 7px !important;
+}
+.multipack-icon img:last-child {
+	height: 37px;	
+}
+.multipack-icon .fluid-svg .icon-media {
+	margin-top: 11px !important;
+}
+.voice-icon img:last-child {
+	height: 33px;
+}
+.voice-icon .fluid-svg .icon-media {
+	margin-top: 15px !important;
+}
+.super-icon img:last-child {
+	height: 42px;	
+}
+.super-icon .fluid-svg .icon-media {
+	margin-top: 7px !important;
+}
+.accessories-icon img:last-child {
+	height: 45px;	
+}
+.accessories-icon .fluid-svg .icon-media {
+	margin-top: 4px !important;
 }
 @media (min-width: 960px) {
 	body[class*=hmenu-]:not(.hmenu-center-split) .logo-container {
